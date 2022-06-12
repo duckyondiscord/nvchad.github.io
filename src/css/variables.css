@@ -1,0 +1,27 @@
+[data-theme="light"] {
+  --fg: #111111;
+  --bg: #fff;
+  --border: #f8f8f8;
+  --prismBg: #2e3440;
+  --shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  --github: url("/icons/github.svg");
+  --telegram: url("/icons/telegram.svg");
+  --discord: url("/icons/discord.svg");
+  --matrix: url("/icons/matrix.svg");
+  --ifm-color-primary: #625AC4;
+}
+
+[data-theme="dark"] {
+  --fg: #d3d9e4;
+  --bg: #10171e;
+  --border: #282c34;
+  --prismBg: #1e222a;
+  --shadow: none;
+
+  --github: url("/icons/github-inverted.svg");
+  --telegram: url("/icons/telegram-inverted.svg");
+  --discord: url("/icons/discord-inverted.svg");
+  --matrix: url("/icons/matrix-inverted.svg");
+  --ifm-color-primary: #FF6E80;
+}

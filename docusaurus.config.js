@@ -17,36 +17,45 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "Nvchad",
+      title: "NvChad",
       logo: {
         alt: "NvChad Logo",
         src: "img/logo.svg",
       },
       items: [
         {
-          to: "getting-started/setup",
-          label: "Getting Started",
-          position: "right",
+          to: "quickstart/install",
+          label: "Docs",
+          position: "left",
         },
         {
-          to: "config/walkthrough",
-          label: "Config",
-          position: "right",
-        },
-        {
-          to: "features",
+          to: "Features",
           label: "Features",
-          position: "right",
+          position: "left",
+        },
+        {
+          to: "Features",
+          label: "Themes",
+          position: "left",
         },
         {
           href: "https://github.com/NvChad/NvChad",
           position: "right",
         },
+        {
+          href: "https://t.me/DE_WM",
+          position: "right",
+        },
+
+        {
+          href: "https://discord.com/invite/gADmkJb9Fb",
+          position: "right",
+        },
+
+        { href: "https://matrix.to/#/#nvchad:matrix.org", position: "right" },
       ],
     },
     prism: {
-      theme: codeTheme,
-      darkTheme: codeTheme,
       additionalLanguages: ["lua"],
     },
   },
@@ -57,7 +66,7 @@ module.exports = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          sidebarCollapsible: false,
+          sidebarCollapsible: true,
         },
         theme: {
           customCss: require.resolve("./src/css/style.css"),
