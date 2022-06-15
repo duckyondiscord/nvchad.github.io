@@ -52,9 +52,7 @@ This will open a prompt in NeoVim warning you that it is about to do a `git rese
 
 ## Uninstall
 
-- Remove nvim related dirs
-
-```bash
+```
 # linux/macos (unix)
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim

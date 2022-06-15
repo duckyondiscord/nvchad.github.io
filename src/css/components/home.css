@@ -1,5 +1,5 @@
 html[data-theme="dark"] {
-  --ifm-background-color: #10171e;
+  --ifm-background-color: #191d25;
 }
 
 .homePage_desc {
@@ -9,14 +9,11 @@ html[data-theme="dark"] {
 
 .homePage_desc h1 {
   text-align: center;
+  padding: 1rem 0;
 }
 
 .homePage_desc li {
   padding: 1rem;
-}
-
-.featureSvg {
-  width: 7rem;
 }
 
 .features {
@@ -24,8 +21,22 @@ html[data-theme="dark"] {
   font-size: 1.2rem;
 }
 
+.features img {
+  width: 7rem;
+}
+
+.features p {
+  font-size: 1.1rem;
+}
+
+.features h3 {
+  font-size: 1.5rem;
+  padding: 1rem 0 0 0rem;
+  color: var(--featuresH3);
+}
+
 .features h1 {
-  margin: 1rem 0 5rem 0 ;
+  margin: 1rem 2rem 5rem 2rem;
   text-align: center;
 }
 
@@ -37,7 +48,7 @@ body {
 
 .navbar {
   background: var(--bg) !important;
-  border-bottom: 1px solid var(--border);
+  box-shadow: var(--navbar_shadow);
   font-weight: 500;
 }
 
@@ -52,15 +63,15 @@ aside {
 
 .navbar__logo {
   height: 1.4rem;
-  margin: 0 0.2rem 0.4rem 0;
+  margin: 0 0.2rem 0.4444 0;
 }
 
 :root .navbar__title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .navbar__item {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 0 0.5rem;
 }
 
@@ -98,22 +109,10 @@ aside {
   text-align: center;
   justify-content: center;
   display: grid;
-  background-color: #a7bfe8;
-  background: -webkit-linear-gradient(
-    to right,
-    #a7bfe8,
-    #6190e0
-  ); /* Chrome 10-25, Safari 5.1-6 */
-
-  background: linear-gradient(
-    to right,
-    #a7bfe8,
-    #6190e0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /* background: white; */
   padding: 6rem;
   padding-top: 1rem;
+  background-image: var(--banner_gradient);
+  width: 100%;
 }
 
 .bannerImg {
@@ -121,8 +120,7 @@ aside {
   height: auto;
   object-fit: cover;
   border-radius: 0.7rem;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .bannerContent {
@@ -138,6 +136,8 @@ aside {
 
 .bannerContent p {
   font-size: 1.3rem;
+  font-weight: 500;
+  color: black;
 }
 
 .bannerDesc {
@@ -150,11 +150,12 @@ aside {
   display: flex;
   gap: 0.5rem;
   align-items: center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: var(--shadow);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: all 250ms ease-in-out;
   color: #a7bfe8;
   background-color: #1e222a;
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 1rem 1.5rem;
   border: none;
   font-size: 1rem;

@@ -81,3 +81,25 @@ h4 {
   background-image: var(--matrix);
   background-repeat: no-repeat;
 }
+
+
+/* ===== Scrollbar ==== */
+
+* {
+  scrollbar-width: .5rem;
+  scrollbar-color: blue pink;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: .5rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--border);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--ifm-color-primary);
+  border-radius: 5px;
+}

@@ -1,5 +1,3 @@
-const codeTheme = require("prism-react-renderer/themes/palenight");
-
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "NvChad",

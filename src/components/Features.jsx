@@ -27,8 +27,8 @@ const FeatureList = [
     imgSrc: "/logos/cogs.png",
     description: (
       <>
-        The defaults can be disabled & overriden! Build your own config
-        on the top of NvChad while still using its features
+        The defaults can be disabled & overriden! Build your own config on the
+        top of NvChad while still using its features
       </>
     ),
   },
@@ -68,7 +68,7 @@ function Feature({ imgSrc, title, description }) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <img className="featureSvg" src={imgSrc} />
+        <img src={imgSrc} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

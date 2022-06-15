@@ -9,7 +9,7 @@ export default function Description() {
         <li>
           NvChad is a neovim config written in lua aiming to provide a base
           configuration with very beautiful UI and blazing fast startuptime
-          (around 0.02 secs ~ 0.07 secs)
+          (around 0.02 secs ~ 0.07 secs on hardware basis)
         </li>
 
         <li>

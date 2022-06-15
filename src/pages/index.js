@@ -1,6 +1,5 @@
 import "../css/variables.css";
 import "../css/style.css";
-import "../css/prism_theme.css";
 import "../css/components/home.css";
 
 import React from "react";
